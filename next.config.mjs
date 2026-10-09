@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/willbuilder2026-star",
-  assetPrefix: "/willbuilder2026-star/",
+  basePath: "/willbuilder-version2",
+  assetPrefix: "/willbuilder-version2/",
   images: { unoptimized: true },
   trailingSlash: true,
 };
