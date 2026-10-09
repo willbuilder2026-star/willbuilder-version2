@@ -45,8 +45,8 @@ const smallBtn = {
 
 // The absolute URLs Supabase should send people back to. Both must also be
 // added to Supabase → Authentication → URL Configuration → Redirect URLs.
-const EMAIL_REDIRECT_TO = "https://willbuilder2026-star.github.io/willbuilder2026-star/app/";
-const RESET_REDIRECT_TO = "https://willbuilder2026-star.github.io/willbuilder2026-star/app/reset-password/";
+const EMAIL_REDIRECT_TO = "https://willbuilder2026-star.github.io/willbuilder-version2/app/";
+const RESET_REDIRECT_TO = "https://willbuilder2026-star.github.io/willbuilder-version2/app/reset-password/";
 
 function willLabel(w) {
   return w.label || `${w.jurisdiction.replace("_", " ")} Will — ${w.status}`;
